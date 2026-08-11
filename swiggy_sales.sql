@@ -1,14 +1,9 @@
---create database swiggysales
+create database swiggysales
 use swiggysales
 select * from swiggy_sales_orders;
 select * from swiggy_restaurants;
 
 
--- ============================================================
--- Swiggy Sales Analysis - T-SQL (SQL Server) Business Questions
--- Database: SwiggySales (run setup_swiggy_sqlserver.sql first)
--- Tables: orders (order-level), restaurants (restaurant-level)
--- ============================================================
 
  
 -- Total revenue, orders, and average order value (delivered only)
